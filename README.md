@@ -31,6 +31,10 @@ The application was originally designed to use the **GraphQL API** from `https:/
 
 The project includes commented-out code to fetch data using Apollo Client when the GraphQL API becomes available again. Simply uncomment the relevant sections and replace the REST API integration with the GraphQL queries.
 
+### Explore the Project Online
+
+Check out the "Star Wars Films" project directly without any installation: 'https://star-wars-films-pearl.vercel.app/'.
+
 ## Installation and Setup
 
 1. **Clone the Repository**:
