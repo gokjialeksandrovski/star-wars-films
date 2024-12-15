@@ -36,8 +36,8 @@ The project includes commented-out code to fetch data using Apollo Client when t
 1. **Clone the Repository**:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/gokjialeksandrovski/star-wars-films.git
+   cd https://github.com/gokjialeksandrovski/star-wars-films.git
    ```
 
 2. **Install Dependencies**:
