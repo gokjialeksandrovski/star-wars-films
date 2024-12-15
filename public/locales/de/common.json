@@ -1,0 +1,15 @@
+{
+  "title": "Star Wars Filme",
+  "director": "Regisseur",
+  "episodeId": "Episoden-ID",
+  "releaseDate": "Veröffentlichungsdatum",
+  "producers": "Produzenten",
+  "filterDirector": "Nach Regisseur filtern",
+  "filterYear": "Nach Erscheinungsjahr filtern",
+  "sortTitle": "Nach Titel sortieren",
+  "sortReleaseDate": "Nach Veröffentlichungsdatum sortieren",
+  "loading": "Wird geladen...",
+  "error": "Fehler",
+  "pleaseEnterNumbers": "Bitte geben Sie Zahlen ein",
+  "pleaseEnterLetters": "Bitte geben Sie Buchstaben ein"
+}

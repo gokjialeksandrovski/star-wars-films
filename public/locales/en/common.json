@@ -1,0 +1,15 @@
+{
+  "title": "Star Wars Films",
+  "director": "Director",
+  "episodeId": "Episode ID",
+  "releaseDate": "Release Date",
+  "producers": "Producers",
+  "filterDirector": "Filter by Director",
+  "filterYear": "Filter by Release Year",
+  "sortTitle": "Sort by Title",
+  "sortReleaseDate": "Sort by Release Date",
+  "loading": "Loading...",
+  "error": "Error",
+  "pleaseEnterNumbers": "Please enter numbers",
+  "pleaseEnterLetters": "Please enter letters"
+}

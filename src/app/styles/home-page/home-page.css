@@ -1,0 +1,96 @@
+.home-section {
+  padding: var(--spacing-large) var(--spacing-medium);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  font-family: var(--font-body);
+  text-align: center;
+}
+
+.home-section h1 {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-medium);
+  padding-bottom: var(--spacing-small);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.home-page-filters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-medium);
+  margin-bottom: var(--spacing-large);
+  margin-top: var(--spacing-large);
+}
+
+.home-page-filters input,
+.home-page-filters button {
+  width: 100%;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  padding: var(--spacing-small) var(--spacing-medium);
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background 0.3s, transform 0.2s;
+  font-family: var(--font-body);
+}
+
+.home-page-filters input {
+  text-align: center;
+}
+
+.home-page-filters input::placeholder {
+  color: #bbb;
+}
+
+.home-page-filters button:hover,
+.home-page-filters input:hover {
+  background: var(--color-border);
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+li {
+  border: 1px solid var(--color-border);
+  background: rgba(27, 27, 27, 0.8);
+  padding: var(--spacing-medium);
+  margin-bottom: var(--spacing-medium);
+  border-radius: 4px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(255, 232, 31, 0.3);
+}
+
+li h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  margin-bottom: var(--spacing-small);
+}
+
+li p {
+  margin: var(--spacing-small) 0;
+  font-size: 0.95rem;
+}
+
+.load-more {
+  text-align: center;
+  margin: var(--spacing-medium);
+  color: var(--color-primary);
+}
+
+.loading,
+.error {
+  text-align: center;
+  margin: var(--spacing-large) 0;
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
