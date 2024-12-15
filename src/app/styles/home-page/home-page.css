@@ -19,6 +19,10 @@
   gap: var(--spacing-medium);
   margin-bottom: var(--spacing-large);
   margin-top: var(--spacing-large);
+
+  @media (max-width: 666px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .home-page-filters input,
